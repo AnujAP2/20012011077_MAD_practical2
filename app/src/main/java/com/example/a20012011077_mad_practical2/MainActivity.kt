@@ -16,29 +16,25 @@ class MainActivity : AppCompatActivity() {
     override fun onStart() {
         super.onStart()
         Log.d("My Log","onStart Function Call")
-        Snackbar.make(findViewById(R.id.parent),"onStart Function call",Snackbar.LENGTH_SHORT).show()
-        Toast.makeText(this,"onStart Function Call",Toast.LENGTH_LONG).show()
+       Toast.makeText(this,"onStart Function Call",Toast.LENGTH_SHORT).show()
     }
 
     override fun onStop() {
         super.onStop()
         Log.d("My Log","onStop Function Call")
-        Snackbar.make(findViewById(R.id.parent),"onStop Function call",Snackbar.LENGTH_SHORT).show()
-        Toast.makeText(this,"onStop Function Call",Toast.LENGTH_LONG).show()
+        Toast.makeText(this,"onStop Function Call",Toast.LENGTH_SHORT).show()
     }
 
     override fun onResume() {
         super.onResume()
         Log.d("My Log","onResume Function Call")
-        Snackbar.make(findViewById(R.id.parent),"onResume Function call",Snackbar.LENGTH_SHORT).show()
-        Toast.makeText(this,"onResume Function Call",Toast.LENGTH_LONG).show()
+        Snackbar.make(findViewById(R.id.parent),"onResume Function call",Snackbar.LENGTH_LONG).show()
     }
 
     override fun onPause() {
         super.onPause()
         Log.d("My Log","onPause Function Call")
-        Snackbar.make(findViewById(R.id.parent),"onPause Function call",Snackbar.LENGTH_SHORT).show()
-        Toast.makeText(this,"onPause Function Call",Toast.LENGTH_LONG).show()
+        Toast.makeText(this,"onPause Function Call",Toast.LENGTH_SHORT).show()
     }
 
 
