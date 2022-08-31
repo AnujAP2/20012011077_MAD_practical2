@@ -40,4 +40,6 @@ class MainActivity : AppCompatActivity() {
         Snackbar.make(findViewById(R.id.parent),"onPause Function call",Snackbar.LENGTH_SHORT).show()
         Toast.makeText(this,"onPause Function Call",Toast.LENGTH_LONG).show()
     }
+
+
 }
