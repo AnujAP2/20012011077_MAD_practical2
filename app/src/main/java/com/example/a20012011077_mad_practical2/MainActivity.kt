@@ -19,12 +19,6 @@ class MainActivity : AppCompatActivity() {
        Toast.makeText(this,"onStart Function Call",Toast.LENGTH_SHORT).show()
     }
 
-    override fun onStop() {
-        super.onStop()
-        Log.d("My Log","onStop Function Call")
-        Toast.makeText(this,"onStop Function Call",Toast.LENGTH_SHORT).show()
-    }
-
     override fun onResume() {
         super.onResume()
         Log.d("My Log","onResume Function Call")
@@ -37,5 +31,10 @@ class MainActivity : AppCompatActivity() {
         Toast.makeText(this,"onPause Function Call",Toast.LENGTH_SHORT).show()
     }
 
+    override fun onStop() {
+        super.onStop()
+        Log.d("My Log","onStop Function Call")
+        Toast.makeText(this,"onStop Function Call",Toast.LENGTH_SHORT).show()
+    }
 
 }
